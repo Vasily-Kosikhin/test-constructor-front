@@ -1,0 +1,44 @@
+.test_container {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 5px;
+  border: 3px solid rgb(231, 226, 255);
+  border-radius: 5px;
+}
+
+.test_name {
+  width: 200px;
+  overflow-y: auto;
+  font-weight: 500;
+}
+
+.test_date {
+  width: 200px;
+}
+
+.test_aciton_container {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.test_aciton_body {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.test_action_icon {
+  width: 25px;
+  height: 25px;
+}
+
+.test_action_icon:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,75 @@
+.answer_text_container {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  width: 95%;
+  min-height: 60px;
+  max-height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  padding: 1px;
+}
+.answer_text_body {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+.answer_text_true {
+  border: 1px solid rgb(59, 78, 59);
+  border-radius: 10px;
+}
+.answer_text_false {
+  border: 1px double rgb(65, 55, 55);
+  border-radius: 10px;
+}
+
+.answer_type_container {
+  width: 40%;
+  height: 95%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.answer_type_container {
+  width: 35%;
+  height: 100%;
+}
+.answer_type_false {
+  width: 90px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.85;
+}
+
+.delete_answer_button {
+  position: relative;
+  bottom: 25px;
+  left: 30px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 15px;
+  color: rgb(255, 189, 189);
+  border: 1px solid rgb(255, 189, 189);
+  font-weight: bolder;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete_answer_button:hover {
+  width: 25px;
+  height: 25px;
+  font-size: 20px;
+  color: rgb(253, 78, 78);
+  border: 1px solid rgb(253, 78, 78);
+}

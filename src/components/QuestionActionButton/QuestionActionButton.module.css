@@ -1,0 +1,35 @@
+.delete_button_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  border-top: 3px solid rgb(231, 226, 255);
+
+  margin-top: 15px;
+  margin-right: 20px;
+}
+.create_button {
+  border-radius: 10px;
+  width: 200px;
+  height: 40px;
+  opacity: 0.5;
+  font-size: 19px;
+}
+.delete_button {
+  border-radius: 10px;
+  width: 200px;
+  height: 40px;
+  opacity: 0.5;
+  font-size: 19px;
+}
+.create_button:hover {
+  opacity: 1;
+}
+.create_button_firstpage {
+  opacity: 1;
+}
+
+.delete_button:hover {
+  opacity: 0.9;
+}
